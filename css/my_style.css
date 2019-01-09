@@ -1,0 +1,339 @@
+header > div{
+    background-color: #5247b4;
+}
+.nav_one > div > div:first-child .sigle{
+    width: 190px;
+    height: 50px;
+    float: left;
+    display: inline-block;
+    margin-top: 8px
+}
+.nav_one > div > div:first-child .sidebar_menu,
+.nav_one > div > div:first-child .nav_bar_menu
+{
+    width: 30px;
+    height: 30px;
+    float: left;
+    display: none;
+    margin-top: 15px;
+    margin-right: 10px
+}
+.nav_bar{
+    padding-left: 50px
+}
+.nav_bar_item{
+    display: inline-block
+}
+.nav_bar_item > div{
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative
+}
+.nav_bar_item > div:hover{
+    background-color: #4b41a5
+}
+.nav_bar_item > div > img:nth-child(1){
+    width: 25px;
+    height: 25px
+}
+.sub_menu_drop_down{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    z-index: 1000;
+    top: 40px;
+    display: none
+}
+.nav_bar_item{
+    font-weight: 500;
+    font-size: 13px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white
+}
+.nav_bar_item > div > strong{
+    padding-right: 5px;
+    border-right: #4b41a5 2px solid;
+    display: block
+}
+.side_bar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-color: white;
+    width: 220px;
+    box-shadow: 10px 0 5px -2px #c9c9c9;
+    padding-left: 2px;
+    padding-right: 2px;
+    overflow-y: scroll;
+    overflow-x: hidden
+}
+.side_bar .user_manager{
+    width: 100%;
+    height: 38px;
+    background-color: #ededee;
+    border: #cccccc 2px solid;
+    margin-top: 5px
+}
+.side_bar .header{
+    height: 65px;
+    border-bottom: #cccccc 1px solid;
+}
+.side_bar .header img{
+    width: 100%;
+    height: 100%
+}
+.side_bar .user_manager{
+    padding: 0px
+}
+.side_bar .user_manager > div{
+    position: relative;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #333333;
+    padding-top: 4px;
+    cursor: pointer;
+    padding-left: 10px
+}
+.side_bar .user_manager > div .avatar{
+    position: absolute;
+    right: 0;
+    top: 3px;
+    width: 25px;
+    height: 25px
+}
+.side_bar .user_manager > div .drop_down{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    width: 100%;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    border: #c9c9c9 1px solid;
+    padding-top: 10px;
+    display: none;
+    z-index: 2000;
+}
+.side_bar .user_manager > div .drop_down .item{
+    font-weight: bolder;
+    font-size: 13px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: gray;
+    border-radius: 5px
+}
+.side_bar .user_manager > div .drop_down .item > div{
+    position: relative;
+    height: 38px;
+    border-bottom: #cccccc 2px solid;
+    padding-top: 4px;
+    padding-left: 5px
+}
+.side_bar .user_manager > div .drop_down .item > div img{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 25px;
+    height: 25px
+}
+.side_bar .user_manager > div .drop_down .item:hover{
+    background-color: #eeeeee
+}
+.side_bar .user_manager .drop_down_border{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    z-index: 9000;
+    display: none
+}
+.side_bar .search_box{
+    padding: 0px
+}
+.side_bar .search_box input{
+    width: 100%;
+    height: 38px;
+    background-color: #eeeeee;
+    border: #a2a2a2 1px solid;
+    margin-top: 20px;
+    padding-left: 10px
+}
+.side_bar .content{
+    padding: 0px;
+    margin-top: 20px
+}
+.side_bar .content > div:nth-child(1){
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #2D5799;
+}
+.sub_menu{
+    width: 160px;
+    background-color: white;
+    border-radius: 5px;
+    border: #6d6d6d 1px solid;
+    box-shadow: 0 0 5px 2px #6d6d6d;
+    padding-top: 20px;
+    display: none
+}
+.sub_menu_item > div{
+    position: relative
+}
+.sub_menu_item{
+    font-weight: 500;
+    font-size: 13px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: black;
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 30px;
+    border-radius: 4px
+}
+.sub_menu_item:hover{
+    background-color: #5247b4;
+    color: white
+}
+.side_bar .content ul{
+    list-style: none;
+    padding: 5px;
+    padding-left: 20px
+}
+.side_bar .content ul li{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    display: block;
+    color: #5e5e5e;
+    margin-top: 20px;
+    cursor: pointer
+}
+.side_bar .content ul li > img:nth-child(1){
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 10px
+}
+.side_bar .content ul li > img:nth-child(2){
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-top: 2px
+}
+.side_bar .content ul li ul{
+    border-left: #5247b4 2px solid;
+    padding: 0px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+    display: none
+}
+.side_bar .content ul li ul li{
+    margin-top: 0px;
+    margin-bottom: 10px
+}
+.social_media img{
+    display: inline-block;
+    height: 35px;
+    width: 35px;;
+    margin-top: 15px
+}
+@media(min-width: 900px){
+    header{
+        padding-left: 227px;
+        padding-right: 3px
+    }
+    header > div{
+        height: 65px;
+    }
+    .sub_menu{
+        position: absolute;
+        top: 50px;
+    }
+    
+    .sub_menu_item .sub_menu{
+        top: 0;
+    }
+    .sub_menu_left{
+        left: 0;
+    }
+    .sub_menu_right{
+        right: 160px;
+    }
+    .sub_menu_left_max{
+        left: 135px
+    }
+}
+@media(max-width: 900px){
+    header > div{
+        min-height: 65px
+    }
+    .side_bar{
+        display: none;
+        top: 70px;
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    .social_media{
+        position: fixed;
+        right: 0;
+        top: 100px;
+        
+    }
+    .social_media img{
+        display: block
+    }
+    .nav_one > div > div:first-child .sidebar_menu{
+        display: inline-block;
+        display: inline-block
+    }
+    .nav_one > div > div:first-child .nav_bar_menu{
+        display: inline-block;
+        display: inline-block
+    }
+    .nav_bar{
+        width: 100%;
+        padding: 0px;
+        display: none;
+        padding-right: 20px;
+    }
+    .nav_bar_item{
+        display: block;
+        width: 100%;
+    }
+    .nav_bar_item > div > strong{
+        border-right: none;
+    }
+    .nav_bar_item > div{
+        width: 100%
+    }
+    .nav_bar_item:nth-child(1) > div{
+        width: 100px
+    }
+    .sub_menu{
+        width: 100%
+    }
+    .sub_menu_drop_down{
+        display: none
+    }
+}
